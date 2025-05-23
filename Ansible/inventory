@@ -1,0 +1,7 @@
+[rocky9]
+LL-rocky9-01 ansible_host=10.0.50.43
+
+[rocky9:vars]
+ansible_user=ansible
+ansible_ssh_pass=gregsowell
+ansible_become_pass=gregsowell

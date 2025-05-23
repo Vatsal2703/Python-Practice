@@ -1,0 +1,10 @@
+---
+
+- name : Write a simple file
+  hosts : localhost
+  tasks :
+    - name : Write a file with a simple string
+      ansible.builtin.linefile:
+        path : /tmp/hello.txt
+        line : "Hello, World!"
+        create: true
